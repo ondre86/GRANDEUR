@@ -11,8 +11,8 @@ const transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-        user: 'automated@ondre.org',
-        pass: 'V!a1X4r$I2@b'
+        user: process.env.USER,
+        pass: process.env.PASS
     }
 })
 
