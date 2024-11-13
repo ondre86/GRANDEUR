@@ -115,7 +115,7 @@ async function formatAndSendEmail(req, res){
         let text = ''
         let mailOptions = {
             from: 'automated@ondre.org',
-            to: 'ondre86@gmail.com',
+            to: 'info@grandeurservice.com',
             subject: '',
             text: {}
         }
